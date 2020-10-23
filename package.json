@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "My super Nuxt.js project",
+  "author": "jax",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node server.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.0",
+    "countup": "^1.8.2",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "nuxt": "^2.0.0",
+    "view-design": "^4.3.2",
+    "vue-codemirror": "^4.0.6",
+    "xterm": "^3.14.2"
+  },
+  "devDependencies": {}
+}
